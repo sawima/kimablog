@@ -1,2 +1,2 @@
 # kimablog
-Using Hugo auto generate blog
+Using Hugo automatically generate blog
