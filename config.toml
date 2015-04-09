@@ -1,0 +1,12 @@
+BaseURL = "http://blog.kimatech.com/"
+title = "Kima's Blog"
+author = "James Hardy"
+copyright = "Copyright (c) 2015, Kimatech; all rights reserved."
+canonifyurls = true
+
+# Needed by Theme demos in exampleSite.
+[params]
+	description = "Nodejs Mobile Meteor Container Infra HTML5 CSS3 ..."
+	sitename = "Kima's Blog"
+
+

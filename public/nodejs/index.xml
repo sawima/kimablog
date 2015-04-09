@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nodejs on Kima&#39;s Blog</title>
+    <link>http://localhost:1313/nodejs/</link>
+    <description>Recent content in Nodejs on Kima&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015, Kimatech; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 09 Apr 2015 10:50:43 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>env</title>
+      <link>http://localhost:1313/nodejs/env/</link>
+      <pubDate>Thu, 09 Apr 2015 10:50:43 +0800</pubDate>
+      
+      <guid>http://localhost:1313/nodejs/env/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

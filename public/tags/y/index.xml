@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Y on Kima&#39;s Blog</title>
+    <link>http://localhost:1313/tags/y/</link>
+    <description>Recent content in Y on Kima&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright (c) 2015, Kimatech; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 09 Apr 2015 16:35:39 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/y/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to use HTML5 attribute</title>
+      <link>http://localhost:1313/html/data-attribute/</link>
+      <pubDate>Thu, 09 Apr 2015 14:00:53 +0800</pubDate>
+      
+      <guid>http://localhost:1313/html/data-attribute/</guid>
+      <description>
+
+&lt;p&gt;how to get and set data-* attribute by javascript and css&lt;/p&gt;
+
+&lt;h1 id=&#34;html5-data-attribute:a9fe770e5e06338bc3ba14f2fba74b9a&#34;&gt;HTML5 Data attribute&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;html5 data attribute&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;input text=&#39;value&#39; data-source=&#39;source&#39; data-id=&#39;ID123&#39; data-user-name=&#39;jane&#39;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;how-to-get-and-set-data-attribute:a9fe770e5e06338bc3ba14f2fba74b9a&#34;&gt;how to get and set data attribute&lt;/h2&gt;
+
+&lt;h3 id=&#34;using-getattribute-and-setattribute:a9fe770e5e06338bc3ba14f2fba74b9a&#34;&gt;Using &lt;code&gt;getAttribute()&lt;/code&gt; and &lt;code&gt;setAttribute()&lt;/code&gt;&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var $target=document.getElementById(&#39;#id&#39;);
+var user_name=$target.getAttribute(&#39;data-user-name&#39;);
+$target.setAttribute(&#39;data-user-name&#39;);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;jquery-data-function:a9fe770e5e06338bc3ba14f2fba74b9a&#34;&gt;Jquery &lt;code&gt;.data()&lt;/code&gt; function&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascirpt&#34;&gt;var user_name=$target.data(&#39;user-name&#39;);
+$target.data(&#39;user-name&#39;)=value;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;dataset:a9fe770e5e06338bc3ba14f2fba74b9a&#34;&gt;dataset&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;var user_name=$target.dataset.username;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;IE10 and below IE browser not support dataset, so if using less than IE10 you should use first and second solution.&lt;/p&gt;
+
+&lt;h2 id=&#34;data-attribute-used-by-css:a9fe770e5e06338bc3ba14f2fba74b9a&#34;&gt;Data Attribute used by CSS&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;get data value&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;#target{
+    content:@user-name
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CSS selector&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;#target[username=&#39;&#39;]{
+    color:red;
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>responsive backgroud image</title>
+      <link>http://localhost:1313/css/responsive-backgroud-image/</link>
+      <pubDate>Thu, 09 Apr 2015 14:32:30 +0800</pubDate>
+      
+      <guid>http://localhost:1313/css/responsive-backgroud-image/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>drag and drop</title>
+      <link>http://localhost:1313/html/drag-and-drop/</link>
+      <pubDate>Thu, 09 Apr 2015 14:32:55 +0800</pubDate>
+      
+      <guid>http://localhost:1313/html/drag-and-drop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>installation</title>
+      <link>http://localhost:1313/container/mesos/installation/</link>
+      <pubDate>Thu, 09 Apr 2015 14:33:26 +0800</pubDate>
+      
+      <guid>http://localhost:1313/container/mesos/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>config docker on slave</title>
+      <link>http://localhost:1313/container/mesos/config-docker-on-slave/</link>
+      <pubDate>Thu, 09 Apr 2015 14:33:52 +0800</pubDate>
+      
+      <guid>http://localhost:1313/container/mesos/config-docker-on-slave/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mesos Master node installation guide</title>
+      <link>http://localhost:1313/container/mesos/master-installation/</link>
+      <pubDate>Thu, 09 Apr 2015 14:34:05 +0800</pubDate>
+      
+      <guid>http://localhost:1313/container/mesos/master-installation/</guid>
+      <description>
+
+&lt;p&gt;install mesos-master on ubuntu 14.04 64bit&lt;/p&gt;
+
+&lt;h1 id=&#34;master-installation:22c0fda83e7d96ebedaa7b8b54abee71&#34;&gt;master installation&lt;/h1&gt;
+
+&lt;h2 id=&#34;install-mesos-master-on-ubuntu-14-04-64bit:22c0fda83e7d96ebedaa7b8b54abee71&#34;&gt;install mesos-master on ubuntu 14.04 64bit&lt;/h2&gt;
+
+&lt;h3 id=&#34;test-envrionment:22c0fda83e7d96ebedaa7b8b54abee71&#34;&gt;Test envrionment&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;master1: 172.21.100.221&lt;/p&gt;
+
+&lt;p&gt;master2: 172.21.100.222&lt;/p&gt;
+
+&lt;p&gt;master3: 172.21.100.223&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;installation-script:22c0fda83e7d96ebedaa7b8b54abee71&#34;&gt;installation script&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+
+# Setup
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv E56151BF
+DISTRO=$(lsb_release -is | tr &#39;[:upper:]&#39; &#39;[:lower:]&#39;)
+CODENAME=$(lsb_release -cs)
+
+# Add the repository
+echo &amp;quot;deb http://repos.mesosphere.io/${DISTRO} ${CODENAME} main&amp;quot; | \
+  sudo tee /etc/apt/sources.list.d/mesosphere.list
+sudo apt-get -y update
+
+sudo apt-get -y install mesosphere
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;configuration:22c0fda83e7d96ebedaa7b8b54abee71&#34;&gt;configuration&lt;/h2&gt;
+
+&lt;h3 id=&#34;zookeeper:22c0fda83e7d96ebedaa7b8b54abee71&#34;&gt;Zookeeper&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;sudo vim /etc/mesos/zk&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;zk://172.21.100.221:2181,172.21.100.222:2181,172.21.100.223:2181/mesos&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;configure zoop unique id for each master, this example use 1,2,3 for each master&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo vim /etc/zookeeper/conf/myid&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;1&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;code&gt;sudo vim /etc/zookeeper/conf/zoo.cfg&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;server.1=172.21.100.221:2888:3888&lt;/p&gt;
+
+&lt;p&gt;server.2=172.21.100.222:2888:3888&lt;/p&gt;
+
+&lt;p&gt;server.3=172.21.100.223:2888:3888&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;mesos-master:22c0fda83e7d96ebedaa7b8b54abee71&#34;&gt;Mesos Master&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Quorum&lt;/em&gt;
+&lt;code&gt;sudo vim /etc/mesos-master/quorum&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;2&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;configure the hostname and ip address&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;echo 172.21.100.221 | sudo tee /etc/mesos-master/ip&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo cp /etc/mesos-master/ip /etc/mesos-master/hostname&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;marathon:22c0fda83e7d96ebedaa7b8b54abee71&#34;&gt;Marathon&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;sudo mkdir -p /etc/marathon/conf&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo cp /etc/mesos-master/hostname /etc/marathon/conf&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo cp /etc/mesos/zk /etc/marathon/conf/master&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo cp /etc/marathon/conf/master /etc/marathon/conf/zk&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;sudo vim /etc/marathon/conf/zk&lt;/code&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;zk://172.21.100.221:2181,172.21.100.222:2181,172.21.100.223:2181/marathon&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;configure-service-init-rules-and-restart-servcies:22c0fda83e7d96ebedaa7b8b54abee71&#34;&gt;configure service init rules and restart servcies&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;#stop and forbide slave process
+sudo stop mesos-slave
+echo manual | sudo tee /etc/init/mesos-slave.override
+
+#start service
+sudo restart zookeeper
+sudo start mesos-master
+sudo start marathon
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;confirm-everything-is-all-right:22c0fda83e7d96ebedaa7b8b54abee71&#34;&gt;confirm everything is all right&lt;/h3&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;mesos service
+&lt;a href=&#34;http://172.21.100.221:5050&#34;&gt;http://172.21.100.221:5050&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;marathon service
+&lt;a href=&#34;http://172.21.100.221:8080&#34;&gt;http://172.21.100.221:8080&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>slave installation</title>
+      <link>http://localhost:1313/container/mesos/slave-installation/</link>
+      <pubDate>Thu, 09 Apr 2015 14:34:10 +0800</pubDate>
+      
+      <guid>http://localhost:1313/container/mesos/slave-installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>common issues</title>
+      <link>http://localhost:1313/container/mesos/common-issues/</link>
+      <pubDate>Thu, 09 Apr 2015 14:34:26 +0800</pubDate>
+      
+      <guid>http://localhost:1313/container/mesos/common-issues/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>collection</title>
+      <link>http://localhost:1313/design/collection/</link>
+      <pubDate>Thu, 09 Apr 2015 16:27:59 +0800</pubDate>
+      
+      <guid>http://localhost:1313/design/collection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>installation</title>
+      <link>http://localhost:1313/container/docker/installation/</link>
+      <pubDate>Thu, 09 Apr 2015 16:35:39 +0800</pubDate>
+      
+      <guid>http://localhost:1313/container/docker/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installation Guide</title>
+      <link>http://localhost:1313/meteor/installation-guide/</link>
+      <pubDate>Thu, 09 Apr 2015 10:17:18 +0800</pubDate>
+      
+      <guid>http://localhost:1313/meteor/installation-guide/</guid>
+      <description>
+
+&lt;p&gt;Meteor is an ultra-simple environment for building modern web
+applications.&lt;/p&gt;
+
+&lt;h2 id=&#34;quick-start:9d4f5debee078ff2736b8039cc26277c&#34;&gt;Quick Start&lt;/h2&gt;
+
+&lt;p&gt;Install Meteor:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;curl https://install.meteor.com | /bin/sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Create a project:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;meteor create try-meteor
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Run it:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd try-meteor
+meteor
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Deploy it to the world, for free:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;meteor deploy try-meteor.meteor.com
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>ddp</title>
+      <link>http://localhost:1313/meteor/ddp/</link>
+      <pubDate>Thu, 09 Apr 2015 10:25:04 +0800</pubDate>
+      
+      <guid>http://localhost:1313/meteor/ddp/</guid>
+      <description>&lt;p&gt;ddp instroduction&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>env</title>
+      <link>http://localhost:1313/nodejs/env/</link>
+      <pubDate>Thu, 09 Apr 2015 10:50:43 +0800</pubDate>
+      
+      <guid>http://localhost:1313/nodejs/env/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>famous</title>
+      <link>http://localhost:1313/mobile/famous/</link>
+      <pubDate>Thu, 09 Apr 2015 10:52:22 +0800</pubDate>
+      
+      <guid>http://localhost:1313/mobile/famous/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

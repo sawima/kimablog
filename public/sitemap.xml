@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2015-04-09T16:35:39+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/container/docker/installation/</loc>
+    <lastmod>2015-04-09T16:35:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/design/collection/</loc>
+    <lastmod>2015-04-09T16:27:59+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/container/mesos/common-issues/</loc>
+    <lastmod>2015-04-09T14:34:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/container/mesos/slave-installation/</loc>
+    <lastmod>2015-04-09T14:34:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/container/mesos/master-installation/</loc>
+    <lastmod>2015-04-09T14:34:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/container/mesos/config-docker-on-slave/</loc>
+    <lastmod>2015-04-09T14:33:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/container/mesos/installation/</loc>
+    <lastmod>2015-04-09T14:33:26+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/html/drag-and-drop/</loc>
+    <lastmod>2015-04-09T14:32:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/css/responsive-backgroud-image/</loc>
+    <lastmod>2015-04-09T14:32:30+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/html/data-attribute/</loc>
+    <lastmod>2015-04-09T14:00:53+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/mobile/famous/</loc>
+    <lastmod>2015-04-09T10:52:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/nodejs/env/</loc>
+    <lastmod>2015-04-09T10:50:43+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/meteor/ddp/</loc>
+    <lastmod>2015-04-09T10:25:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/meteor/installation-guide/</loc>
+    <lastmod>2015-04-09T10:17:18+08:00</lastmod>
+  </url>
+  
+</urlset>

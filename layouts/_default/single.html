@@ -1,0 +1,24 @@
+{{partial "header.html" .}}
+	<header class="intro-header" style="background-image: url('/img/bg-3.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>{{.Title}}</h1>
+<!--                         <h2 class="subheading">Problems look mighty small from 150 miles up</h2> -->
+                        <span class="meta">Posted on {{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+	<article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+					{{.Content}}
+                </div>
+            </div>
+        </div>
+    </article>
+{{partial "footer.html" .}}
